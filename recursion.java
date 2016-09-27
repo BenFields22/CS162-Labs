@@ -4,7 +4,6 @@ public class recursion {
 	public static double summer(double array[],int size)
 	{
 		System.out.println("Entered recursive funtion with size: "+size);
-		double sum = 0;
 		if(size < 0)
 		{
 			System.out.println("Base case hit");
